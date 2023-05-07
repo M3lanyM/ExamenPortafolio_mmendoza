@@ -1,0 +1,172 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+.imagen1 {
+  width: 30%;
+  height: 27%;
+  border-radius: 50%;
+  box-shadow: aliceblue;
+  border: 2px solid #a81d4d;
+}
+
+.linkedin {
+  background-image: linear-gradient(to bottom, #00b4d8, #48cae4);
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: Georgia;
+  margin: 5%;
+}
+
+.linkedin:hover {
+  background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
+}
+
+.github {
+  background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: Georgia;
+}
+
+.github:hover {
+  background-image: linear-gradient(to bottom, #00b4d8, #48cae4);
+}
+
+.contain {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.text {
+  text-align: center;
+}
+
+.column {
+  background: #cfcdc6;
+  color: #333;
+  border: 1px solid #242424;
+  margin: 10px;
+  padding: 50px;
+  border-radius: 8px;
+  box-shadow: 8px 8px 5px #888;
+  font-family: Georgia;
+}
+
+
+.carrucel {
+  display: flex;
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100%;
+}
+
+.perfil {
+  width: 40%;
+  flex-shrink: 0;
+  scroll-snap-align: center;
+}
+
+.name_port {
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  right: 0px;
+  left: 0px;
+  top: -22px;
+  background: #449293;
+  text-align: left;
+  
+}
+
+.info {
+  margin-top: 10%;
+
+}
+
+.profile {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 2px solid #b5838d;
+  margin-inline: 38%;
+}
+
+.title {
+  font-family: Georgia;
+  font-size: 20px;
+  text-align: center;
+}
+
+.buttons {
+  margin-inline: 41%;
+}
+
+.text-conf{
+  color: #a81d4d;
+  margin-inline: 2%;
+}
+
+.public{
+  color: #a81d4d;
+  font-weight: bold;
+}
+
+.url-repos{
+  color: #449293;
+  font-weight: bold;
+}
+
+.PageFooter{
+  background: #449293;
+  font-family: Georgia;
+  
+}
+.networks{
+  background-image: linear-gradient(to bottom, #ffb4a2, #b5838d);
+  display: inline-block;
+  padding: 8px 15px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: Georgia;
+  margin-left: 1%;
+}
+
+.name{
+  margin-left: 1%;
+}
+
+.email{
+  margin-left: 1%;
+}
